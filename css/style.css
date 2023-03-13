@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300&family=Raleway:wght@100&display=swap');
+
+:root {
+    --primary-color: #293F50;
+    --secondary-color: #648880;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    padding: 30px 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .home {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.secondary {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu-list {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header a:hover {
+    color: var(--secondary-color);
+}
+
+.hero {
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: antiquewhite;
+    line-height: 2;
+}
+
+.hero .secondary {
+    font-size: 2rem;
+}
+
+.hero p {
+    width: 70%;
+    margin: auto;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;  
+    border-radius: 10px;
+}
+
+.hero a:hover {
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.main {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-evenly;
+    color: var(--primary-color);
+}
+.wrapper {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.wrapper a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+
+.wrapper a:hover {
+    color: var(--secondary-color);
+}
+.wrapper img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer .menu {
+    margin-bottom: 30px;
+}
+
+.footer .menu a:hover {
+    color: var(--secondary-color);
+}
